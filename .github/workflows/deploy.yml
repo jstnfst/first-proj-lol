@@ -52,3 +52,4 @@ jobs:
       - run: npx wrangler pages deploy dist/ --project-name=first-proj-lol
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 881ee7a4277d8903f39d55be775589eb
